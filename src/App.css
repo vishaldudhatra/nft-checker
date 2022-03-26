@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.Name {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.MainWrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Collectibles {
+  background-color: #9b9b9b;
+  color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 1px black;
+}
